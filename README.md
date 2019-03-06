@@ -1,6 +1,6 @@
 # node-proxy-pool
 
-仿照[这里]实现
+仿照[这里](https://www.jianshu.com/p/a8922e1551ae)实现
 增加了一个储存在MongoDB
 
 ## QuickStart
@@ -32,4 +32,3 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
-[这里]：https://www.jianshu.com/p/a8922e1551ae
