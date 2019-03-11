@@ -31,6 +31,7 @@ module.exports = appInfo => {
     mapping: { '.html': 'ejs' } //左边写成.html后缀，会自动渲染.html文件
   };
 
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',

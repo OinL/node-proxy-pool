@@ -4,6 +4,17 @@ const Service = require('egg').Service;
 const iconv = require('iconv-lite')
 const rp = require('request-promise')
 
+// const Logger = require('egg-logger').Logger;
+
+// const logger = new Logger();
+// logger.set('file', new FileTransport({
+//     file: './logs/log_data/error.log',
+//     level: 'DEBUG',
+// }));
+// logger.set('console', new ConsoleTransport({
+//     level: 'DEBUG',
+// }));
+
 class IpService extends Service {
     async get66ipData(ipCount = 100) {
         const { ctx } = this;
@@ -62,6 +73,7 @@ class IpService extends Service {
         } catch (error) {
             console.warn('get proxy list error ...')
             console.warn(error)
+            //logger.info(error);
             return error;
         }
     }
