@@ -31,6 +31,13 @@ module.exports = appInfo => {
     mapping: { '.html': 'ejs' } //左边写成.html后缀，会自动渲染.html文件
   };
 
+  config.cluster = {
+    listen: {
+      port: 6677,
+      hostname: '0.0.0.0',
+      // path: '/var/run/egg.sock',
+    }
+  }
 
   // add your user config here
   const userConfig = {

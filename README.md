@@ -1,7 +1,7 @@
 # node-proxy-pool
 
 仿照[这里](https://www.jianshu.com/p/a8922e1551ae)实现
-增加了一个储存在MongoDB
+增加定时任务储存在MongoDB
 
 ## QuickStart
 
